@@ -11,3 +11,351 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.electric {
+  background-color: rgb(252, 252, 24);
+  border-radius: 2px;
+}
+
+.electric small {
+  background-color: #159af9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 50%;
+  border: 1px solid rgb(252, 252, 24);
+}
+
+.electric small:hover {
+  background-color: #f76d54;
+}
+
+.bug {
+  background-color: #f2ad46;
+  border-radius: 2px;
+}
+
+.bug small {
+  background-color: #159af9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 50%;
+  border: 1px solid #f2ad46;
+}
+
+.bug small:hover {
+  background-color: #ce6ff4;
+}
+
+.poison {
+  background-color: #ce6ff4;
+  border-radius: 2px;
+}
+
+.poison small {
+  background-color: #f94c08;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 50%;
+  border: 1px solid #f94c08;
+}
+
+.poison small:hover {
+  background-color: aqua;
+}
+
+.normal {
+  background-color: #F4F4F4;
+  border-radius: 2px;
+}
+
+.normal small {
+  background-color: #FFBC00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 40%;
+  border: 1px solid #FFBC00;
+  text-align: center;
+}
+
+.normal small:hover {
+  background-color: #159af9;
+}
+
+.fairy {
+  background-color: #08f964;
+  border-radius: 2px;
+}
+
+.fairy small {
+  background-color: #FFBC00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 40%;
+  border: 1px solid #FFBC00;
+}
+
+.fairy small:hover {
+  background-color: #ff6200;
+
+}
+
+.fire {
+  background-color: #f76d54;
+  color: black;
+  border-radius: 2px;
+}
+
+.grass {
+  color: black;
+  background-color: #0f870b;
+  border-radius: 2px;
+}
+
+.water {
+  background-color: #159af9;
+  border-radius: 2px;
+}
+
+.water small {
+  background-color: #FFBC00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 40%;
+  border: 1px solid #FFBC00;
+}
+
+.water small:hover {
+  background-color: #f6a288;
+}
+
+.fire small {
+  background-color: #f6a288;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 40%;
+  border: 1px solid #f6a288;
+}
+
+.grass:hover {
+  background-color: #0cf804;
+}
+
+.fire:hover {
+  background-color: red;
+}
+
+.water:hover {
+  background-color: blue;
+}
+
+.bug:hover {
+  background-color: yellowgreen;
+}
+
+.normal:hover {
+  background-color: #c6c6c6;
+}
+
+.poison:hover {
+  background-color: fuchsia;
+}
+
+.ground:hover {
+  background-color: dimgrey;
+}
+
+.electric:hover {
+  background-color: #f2ad46;
+}
+
+.grass small:hover {
+  background-color: #f6a288;
+}
+
+.fire small:hover {
+  background-color: #0cf804;
+}
+
+.grass small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 40%;
+  background-color: #0cf804;
+  border: 1px solid #0f870b;
+}
+
+.ground small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 40%;
+  background-color: #0cf804;
+  border: 1px solid #0cf804;
+}
+
+.ground small:hover {
+  background-color: #c6c6c6;
+  border: 1px solid #c6c6c6;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 3rem 0.5rem;
+  background: #FFBC00;
+}
+
+.all-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.thumb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  margin: 0.3rem;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+}
+
+h3 {
+  margin-bottom: 0.2rem;
+  text-transform: capitalize;
+}
+
+h3:hover {
+  background-color: deepskyblue;
+}
+
+.thumb-container .number {
+  border-radius: 1rem;
+  padding: 0.2rem 0.4rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.thumb-container img {
+  width: 120px;
+  height: 120px;
+}
+
+.thumb-container small {
+  text-transform: capitalize;
+}
+
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.detail-wrapper button {
+  color: rgb(22, 22, 22);
+  padding: .5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+
+.load-more {
+  background-color: deepskyblue;
+  border-radius: 10px;
+  border: 1px solid #c6c6c6;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  min-width: 50%;
+  margin-top: 1rem;
+  min-height: 50px;
+}
+
+.load-more:hover {
+  background-color: #0f870b;
+  color: black;
+}
+
+.thumb-container .desc {
+  color: black;
+  position: absolute;
+  left: 60%;
+  top: 35%;
+  min-height: 500px;
+}
+
+.pokemon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-title {
+  border: 1px solid black;
+  min-width: 300px;
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon-title:hover {
+  background-color: dodgerblue;
+  color: yellow;
+}
+
+small.detail-item {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+  width: 50%;
+  background-color: chartreuse;
+  border: 1px solid;
+}
+
+p {
+  text-transform: capitalize;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  text-transform: capitalize;
+}
+
+th,
+td:hover {
+  color: #159af9;
+}
+
+small {
+  border-radius: 5px;
+}
